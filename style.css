@@ -1,0 +1,79 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: linear-gradient(to right, #000000 , #060a3c);}
+
+
+.all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ 
+}
+.calculator {
+  width: 60%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+justify-content: center;
+gap: 30px;
+}
+
+.btns button{
+padding: 30px 35px;
+border-radius: 99px;
+border: none;
+
+background-color: #000000;
+color: #ffffff;
+font-size: large;
+cursor: pointer;
+}
+button:hover {
+  /* background-color: rgb(22, 30, 73); */
+  box-shadow: 1px 1px 30px rgb(78, 82, 124); 
+}
+.btns{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 17px;
+  
+}
+
+
+.display {
+  margin: 10px;
+  font-size: 25px;
+  border: none;
+  color: white;
+  margin-right: 150px;
+  margin-bottom: 30px;
+}
+
+
+input {
+  background-color: rgba(1,1,1, 0);
+  border: 1px solid white;
+  color: #ffffff;
+  padding: 20px 100px;
+  margin-top: 30px;
+  border-radius: 5px;
+  text-align: start;
+}
+.ac button{
+  background-color: rgba(221, 90, 42);
+}
+.ac button:hover{
+  box-shadow: 1px 1px 30px rgb(190, 94, 92); 
+  color: rgb(106, 29, 29);
+}
+.nf button{
+  opacity: 0;
+}
